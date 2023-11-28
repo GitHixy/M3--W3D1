@@ -1,3 +1,6 @@
+body{
+  background-color: #F5F4F8;
+}
 .hero-section {
     background-color: #7550FE; 
     text-align: center; 
@@ -39,4 +42,30 @@
     margin-right: 10px;
     background-color: #FFEEDA;
     color: #C2823F;
+  }
+  .header {
+    background-color: #fff;
+  }
+  .cash-trasform {
+    text-decoration: line-through;
+  }
+  .text-color-change {
+    color: #808080;
+  }
+  .icon-cell ion-icon {
+    color: #0000ff;
+  }
+  .stars {
+    color: #FFAA46;
+  }
+.footer a, p {
+  text-decoration: none;
+  color: #808080;
+}
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #0000005e;
+    margin-top: -100px;
   }
