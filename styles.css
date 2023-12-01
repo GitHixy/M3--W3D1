@@ -69,3 +69,26 @@ body{
     background-color: #0000005e;
     margin-top: -100px;
   }
+  .card {
+    transition: transform 0.5s, box-shadow 0.5s;  
+  }
+  .carousel-inner {
+    overflow: visible;
+  }
+  .card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    overflow: visible;
+  }
+  .bookmark-change ion-icon[name="bookmark-outline"] {
+    display: block;
+  }
+  .bookmark-change ion-icon[name="bookmark-sharp"] {
+    display: none;
+  }
+  .bookmark-change:hover ion-icon[name="bookmark-outline"] {
+    display: none;
+  } 
+  .bookmark-change:hover ion-icon[name="bookmark-sharp"] {
+    display: block;
+  }
